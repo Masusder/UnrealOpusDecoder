@@ -224,7 +224,7 @@ public class UnrealOpusAudioDecoder : IDisposable
         }
 
 #if DEBUG
-        Console.WriteLine($"Decoded {totaldecodedFrames} frames, total samples so far: {result.Count / 2}");
+        Console.WriteLine($"Decoded {totaldecodedFrames} frames");
 #endif
 
         return result;
