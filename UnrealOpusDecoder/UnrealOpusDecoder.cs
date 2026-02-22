@@ -55,7 +55,7 @@ public class Program
             using var decoder = new UnrealOpusAudioDecoder();
             if (!decoder.Initialize(header))
             {
-                Console.WriteLine("Failed to initialize: Invalid UEOPUS header");
+                Console.WriteLine("Failed to initialize Opus decoder");
                 return;
             }
 
